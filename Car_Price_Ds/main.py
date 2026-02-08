@@ -108,4 +108,4 @@ if st.button('Estimate Price'):
         for name, amount in breakdown:
             # Color logic: Green for positive adds, Red for discounts/negatives
             color = ":green" if amount >= 0 else ":red"
-            st.write(f"{color}[{name}]: **${amount:,.2f}**"
+            st.write(f"{color}[{name}]: **${amount:,.2f}**")
