@@ -103,6 +103,7 @@ if st.button('Estimate Price'):
     # The Detailed Breakdown Section
     with st.expander("See Price Breakdown", expanded=True):
         st.write(f"**Base Price:** ${base:,.2f}")
+        st.write(f"**Base Price:** ${base:,.2f}")
         st.write("---")
         for name, amount in breakdown:
             # Color logic: Green for positive adds, Red for discounts/negatives
